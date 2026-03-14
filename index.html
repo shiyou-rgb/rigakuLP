@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>身体と福祉の知識 動画シリーズ - 占い実践カレッジ</title>
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons CDN -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         html { scroll-behavior: smooth; }
@@ -12,6 +14,7 @@
 </head>
 <body class="min-h-screen bg-slate-50 text-slate-800 font-sans selection:bg-teal-100 selection:text-teal-900 leading-relaxed">
 
+    <!-- Header -->
     <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100">
         <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center gap-2">
@@ -27,6 +30,7 @@
         </div>
     </header>
 
+    <!-- Hero Section -->
     <section class="bg-white px-6 pt-20 pb-24 md:pt-32 md:pb-32 relative overflow-hidden">
         <div class="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none">
             <div class="absolute -top-24 -right-24 w-96 h-96 bg-teal-50 rounded-full mix-blend-multiply filter blur-3xl opacity-70"></div>
@@ -35,7 +39,7 @@
 
         <div class="max-w-3xl mx-auto relative z-10 text-center">
             <span class="inline-block py-1.5 px-4 rounded-full bg-slate-100 text-slate-600 text-sm font-semibold tracking-wide mb-6">
-                占い実践カレッジ サブスクリプション 新シリーズ
+                占い実践カレッジ 動画講座 新シリーズ
             </span>
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight mb-6 tracking-tight">
                 鑑定の説得力が変わる。<br>
@@ -57,6 +61,7 @@
         </div>
     </section>
 
+    <!-- Empathy Section (歯がゆさ) -->
     <section class="py-20 px-6 bg-slate-50">
         <div class="max-w-3xl mx-auto">
             <div class="text-center mb-12">
@@ -68,6 +73,7 @@
                 <ul class="space-y-5">
                     <li class="flex items-start gap-4 p-4 bg-slate-50 rounded-xl">
                         <div class="mt-0.5 text-teal-600 shrink-0">
+                            <!-- MessageCircleIcon SVG -->
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
                             </svg>
@@ -95,7 +101,7 @@
 
             <div class="space-y-6 text-lg text-slate-700">
                 <p>
-                    運気の流れや心のあり方をお伝えし、命の運び方をアドバイスすることは、私たちの大切な役割です。それだけでも、相談者様は大きな安心を得られます。
+                    運気の流れや心のあり方をお伝えし、命の運び方をアドバイスすることは、占い師の大切な役割です。それだけでも、相談者様は大きな安心を得られます。
                 </p>
                 <div class="p-6 bg-teal-50 border-l-4 border-teal-500 rounded-r-xl">
                     <p class="font-semibold text-teal-900">
@@ -108,6 +114,7 @@
         </div>
     </section>
 
+    <!-- Why Needed Section (なぜ必要なのか) -->
     <section class="py-24 px-6 bg-white">
         <div class="max-w-4xl mx-auto">
             <div class="text-center mb-16">
@@ -124,12 +131,13 @@
                     </p>
                     <p>
                         相談者様は、見えない世界からの導きと同時に、現実社会での「具体的な解決策の糸口」も求めています。
-                        もしあなたに、医療や公的福祉の基本的な知識があれば、一言添えられるアドバイスの価値が格段に変わります。
+                        もしあなたに、医療や公的福祉の基本的な知識があればどうでしょうか。
                     </p>
                 </div>
                 
                 <div class="flex-1 w-full bg-slate-50 p-8 rounded-2xl border border-slate-200 relative">
                     <div class="absolute -top-4 -left-4 bg-teal-500 text-white w-10 h-10 flex items-center justify-center rounded-full shadow-lg">
+                        <!-- LightbulbIcon SVG -->
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.9 1.2 1.5 1.5 2.5" />
                             <path d="M9 18h6" />
@@ -149,13 +157,14 @@
         </div>
     </section>
 
+    <!-- What you'll learn (学べること) -->
     <section class="py-24 px-6 bg-slate-900 text-white relative">
         <div class="max-w-4xl mx-auto">
             <div class="text-center mb-16">
                 <span class="text-teal-400 font-semibold tracking-wider text-sm uppercase">Curriculum</span>
                 <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-6">このシリーズで学べること</h2>
                 <p class="text-slate-400 max-w-2xl mx-auto text-lg">
-                    鑑定現場で直面しやすいリアルな疑問にフォーカスし、鑑定士が知っておくべき知識をわかりやすく解説します。
+                    本動画シリーズでは、鑑定現場で直面しやすいリアルな疑問にフォーカスし、鑑定士が知っておくべき知識をわかりやすく解説します。
                 </p>
             </div>
 
@@ -188,7 +197,52 @@
         </div>
     </section>
 
-    <section class="py-24 px-6 bg-white">
+    <!-- Video Design (動画設計) -->
+    <section class="py-20 px-6 bg-teal-50">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="flex-1">
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-800 mb-6">忙しい鑑定士のための<br>「続けられる」動画設計</h2>
+                <p class="text-slate-600 text-lg mb-8">日々の鑑定や学びで忙しい皆様でも無理なくインプットできるよう、動画の形式にもこだわりました。</p>
+                
+                <ul class="space-y-6">
+                    <li class="flex gap-4 items-start">
+                        <div class="mt-1 bg-teal-600 p-2 rounded-full text-white shrink-0">
+                            <i data-lucide="clock" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg text-slate-800">1本約10分のショート動画</h4>
+                            <p class="text-slate-600 mt-1">移動中や待機の隙間時間、ちょっとした休憩にスマホでサクッと学べます。</p>
+                        </div>
+                    </li>
+                    <li class="flex gap-4 items-start">
+                        <div class="mt-1 bg-teal-600 p-2 rounded-full text-white shrink-0">
+                            <i data-lucide="play-circle" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg text-slate-800">実践的な知識と技術</h4>
+                            <p class="text-slate-600 mt-1">現場の最新事情や、よくある相談事例に合わせて、その時一番必要な生きた情報をお届けします。</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="flex-1 w-full max-w-sm mx-auto relative">
+                <div class="absolute inset-0 bg-teal-200 rounded-3xl transform rotate-3 scale-105"></div>
+                <div class="bg-white rounded-3xl shadow-xl overflow-hidden relative border border-slate-100 z-10 aspect-[4/3] flex flex-col">
+                    <div class="bg-slate-800 flex-1 flex items-center justify-center relative">
+                        <i data-lucide="play-circle" class="w-16 h-16 text-white/80"></i>
+                        <div class="absolute bottom-3 right-3 bg-black/70 text-white text-xs px-2 py-1 rounded">10:24</div>
+                    </div>
+                    <div class="p-4">
+                        <div class="h-4 bg-slate-200 rounded w-3/4 mb-2"></div>
+                        <div class="h-4 bg-slate-200 rounded w-1/2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <section class="py-24 px-6 bg-white">
         <div class="max-w-3xl mx-auto">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold text-slate-800 mb-4">講師紹介</h2>
@@ -196,8 +250,9 @@
             </div>
             
             <div class="bg-slate-50 rounded-3xl p-8 md:p-12 border border-slate-200 flex flex-col md:flex-row gap-8 items-center md:items-start shadow-sm">
+                
                 <div class="w-32 h-32 md:w-40 md:h-40 shrink-0 bg-white rounded-full flex items-center justify-center border-4 border-teal-100 relative overflow-hidden shadow-md">
-                    <img src="https://github.com/shiyou-rgb/rigakuLP/blob/main/%E5%90%8D%E7%A7%B0%E6%9C%AA%E8%A8%AD%E5%AE%9A%E3%81%AE%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3.png?raw=true" alt="講師の中村崇秀氏" class="w-full h-full object-cover">
+                    <img src="https://raw.githubusercontent.com/shiyou-rgb/rigakuLP/main/%E5%90%8D%E7%A7%B0%E6%9C%AA%E8%A8%AD%E5%AE%9A%E3%81%AE%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3.png" alt="講師の中村さん" class="w-full h-full object-cover">
                 </div>
                 
                 <div>
@@ -215,15 +270,16 @@
                         </p>
                     </div>
                 </div>
+                
             </div>
-        </div>
+            </div>
     </section>
-
+    <!-- Future / Benefits (得られる未来) -->
     <section class="py-24 px-6 bg-slate-900 text-white text-center">
         <div class="max-w-4xl mx-auto">
             <i data-lucide="award" class="w-16 h-16 text-teal-400 mx-auto mb-6"></i>
-            <h2 class="text-3xl md:text-4xl font-bold mb-6">このシリーズで、あなたが得られる成果</h2>
-            <p class="text-slate-300 text-lg mb-12">知識の習得は通過点。その先にある「鑑定士としての変化」を約束します。</p>
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">この講座で、あなたが得られる未来</h2>
+            <p class="text-slate-300 text-lg mb-12">この知識を手に入れたあなたは、鑑定士として次のステージへ進みます。</p>
 
             <div class="grid md:grid-cols-3 gap-6 text-left">
                 <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700">
@@ -232,63 +288,71 @@
                 </div>
                 <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700">
                     <i data-lucide="check-circle" class="w-8 h-8 text-teal-400 mb-4"></i>
-                    <p class="text-lg font-medium leading-relaxed">スピリチュアルと現実の両面から導ける<strong class="text-white block mt-2 text-xl">「唯一無二の鑑定スタイル」</strong>を確立できる。</p>
+                    <p class="text-lg font-medium leading-relaxed">スピリチュアルと現実の両面からアプローチできる<strong class="text-white block mt-2 text-xl">「唯一無二の鑑定士」</strong>としてポジションを確立できる。</p>
                 </div>
                 <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700">
                     <i data-lucide="check-circle" class="w-8 h-8 text-teal-400 mb-4"></i>
-                    <p class="text-lg font-medium leading-relaxed">「先生に相談して、心から救われました」と、<strong class="text-white block mt-2 text-xl">相談者から深く感謝される</strong>存在になる。</p>
+                    <p class="text-lg font-medium leading-relaxed">「先生に相談して、心から救われました」と、<strong class="text-white block mt-2 text-xl">相談者様から深く感謝される</strong>ようになる。</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Subscription Full Contents (サブスク全容) -->
     <section class="py-24 px-6 bg-white border-b border-slate-100">
         <div class="max-w-5xl mx-auto">
             <div class="text-center mb-16">
                 <span class="text-teal-600 font-bold tracking-wider text-sm uppercase block mb-2">ALL INCLUSIVE</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-slate-800 mb-6">
-                    占い実践カレッジで<br class="md:hidden">常にアップデートされる知恵
+                    占い実践カレッジで<br class="md:hidden">学び放題のコンテンツ
                 </h2>
                 <p class="text-slate-600 text-lg max-w-2xl mx-auto">
-                    サブスクリプションにご登録いただくと、本シリーズに加えて、鑑定士の「格」を飛躍的に高めるすべてのコンテンツが見放題になります。
+                    サブスクリプションにご登録いただくと、本シリーズに加えて、鑑定士としての実力を飛躍的に高める「すべてのコンテンツ」が見放題・読み放題になります。
                 </p>
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+                <!-- Content 1 -->
                 <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 relative overflow-hidden group hover:border-teal-500 transition-colors">
-                    <div class="absolute top-0 right-0 bg-teal-500 text-white text-[10px] font-bold px-3 py-1 rounded-bl-lg z-10">NEW!</div>
+                    <div class="absolute top-0 right-0 bg-teal-500 text-white text-[10px] font-bold px-3 py-1 rounded-bl-lg z-10">
+                        NEW!
+                    </div>
                     <div class="w-12 h-12 bg-white text-teal-600 rounded-xl flex items-center justify-center mb-4 shadow-sm border border-slate-100">
                         <i data-lucide="stethoscope" class="w-6 h-6"></i>
                     </div>
                     <h3 class="font-bold text-slate-800 mb-2 text-lg">身体と福祉の知識</h3>
-                    <p class="text-slate-600 text-sm">医療・介護の現場視点から、深い悩みに対する具体的で現実的なアドバイス力を養います。</p>
+                    <p class="text-slate-600 text-sm">医療・介護のリアルな現場視点から、深い悩みに対する具体的で現実的なアドバイスの知識を身につけます。</p>
                 </div>
 
+                <!-- Content 2 -->
                 <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-teal-500 transition-colors">
                     <div class="w-12 h-12 bg-white text-teal-600 rounded-xl flex items-center justify-center mb-4 shadow-sm border border-slate-100">
                         <i data-lucide="compass" class="w-6 h-6"></i>
                     </div>
                     <h3 class="font-bold text-slate-800 mb-2 text-lg">風水動画講座</h3>
-                    <p class="text-slate-600 text-sm">環境学としての風水を基礎から解説。住まいを整える具体的な手法を学べます。</p>
+                    <p class="text-slate-600 text-sm">環境学としての風水を基礎から実践まで解説。住まいや職場の運気を整える具体的な手法を学べます。</p>
                 </div>
 
+                <!-- Content 3 -->
                 <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-teal-500 transition-colors">
                     <div class="w-12 h-12 bg-white text-teal-600 rounded-xl flex items-center justify-center mb-4 shadow-sm border border-slate-100">
                         <i data-lucide="smile" class="w-6 h-6"></i>
                     </div>
                     <h3 class="font-bold text-slate-800 mb-2 text-lg">人相動画講座</h3>
-                    <p class="text-slate-600 text-sm">表情から性格・運勢を読み解く技術。オンライン鑑定でも強力な武器になります。</p>
+                    <p class="text-slate-600 text-sm">顔のパーツや表情から性格・運勢を読み解く技術。対面鑑定はもちろん、オンライン鑑定でも強力な武器になります。</p>
                 </div>
 
+                <!-- Content 4 -->
                 <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-teal-500 transition-colors">
                     <div class="w-12 h-12 bg-white text-teal-600 rounded-xl flex items-center justify-center mb-4 shadow-sm border border-slate-100">
                         <i data-lucide="file-text" class="w-6 h-6"></i>
                     </div>
                     <h3 class="font-bold text-slate-800 mb-2 text-lg">実践的PDF資料</h3>
-                    <p class="text-slate-600 text-sm">鑑定ですぐに使える早見表やヒアリングシートなど。現場で即戦力となる資料です。</p>
+                    <p class="text-slate-600 text-sm">鑑定ですぐに使える早見表や、相談者へのヒアリングシートなど。現場で即使えるお役立ち資料が見放題。</p>
                 </div>
             </div>
 
+            <!-- Future Content Teaser -->
             <div class="bg-gradient-to-br from-teal-50 to-blue-50 rounded-3xl p-8 border border-teal-100 relative overflow-hidden">
                 <div class="absolute -right-10 -bottom-10 opacity-10">
                     <i data-lucide="sparkles" class="w-64 h-64 text-teal-600"></i>
@@ -296,41 +360,45 @@
                 <div class="relative z-10">
                     <div class="inline-flex items-center gap-2 bg-white text-teal-700 font-bold px-4 py-1.5 rounded-full text-sm shadow-sm mb-6 border border-teal-100">
                         <i data-lucide="sparkles" class="w-4 h-4"></i>
-                        今後も新シリーズを続々追加！
+                        今後も新コンテンツを続々追加予定！
                     </div>
-                    <h3 class="text-2xl font-bold text-slate-800 mb-6">常に深まり続ける、鑑定士のための研鑽の場</h3>
+                    <h3 class="text-2xl font-bold text-slate-800 mb-6">常に進化し続ける、鑑定士のための学び場</h3>
                     
                     <ul class="space-y-4">
                         <li class="flex items-center gap-3">
                             <div class="w-2 h-2 rounded-full bg-teal-500"></div>
-                            <span class="text-slate-700 font-medium md:text-lg">神職が解き明かす、鑑定に魂を宿すための「神道・神様の真理」</span>
+                            <span class="text-slate-700 font-medium md:text-lg">本物の神職が解説する「神様・神道の知識」</span>
                         </li>
                         <li class="flex items-center gap-3">
                             <div class="w-2 h-2 rounded-full bg-teal-500"></div>
-                            <span class="text-slate-700 font-medium md:text-lg">鑑定士の器を整える、ヨガ講師による「心身の調律（ミニヨガ）」</span>
+                            <span class="text-slate-700 font-medium md:text-lg">ヨガ講師が教える占い師のセルフケア「ミニヨガ講座」</span>
                         </li>
                         <li class="flex items-center gap-3">
                             <div class="w-2 h-2 rounded-full bg-teal-500"></div>
-                            <span class="text-slate-700 font-medium md:text-lg">【実践】月13万の成果を地に足のついた収入に変えた「副業の軌跡」</span>
+                            <span class="text-slate-700 font-medium md:text-lg">【実践】月13万を達成した、占い副業のリアル・メソッド</span>
                         </li>
                     </ul>
-                    <p class="mt-6 text-sm text-slate-500 font-medium">※追加料金なしで、すべてのアーカイブを心ゆくまでご視聴いただけます。</p>
+                    <p class="mt-6 text-sm text-slate-500 font-medium">※これらもすべて、追加料金なしでご視聴いただけます。</p>
                 </div>
             </div>
+
         </div>
     </section>
 
+    <!-- Pricing & CTA -->
     <section id="cta-section" class="py-24 px-6 bg-slate-50 relative">
         <div class="max-w-3xl mx-auto text-center">
             <span class="text-teal-600 font-bold tracking-wider text-sm uppercase mb-2 block">占い実践カレッジ サブスクリプション</span>
-            <h2 class="text-3xl font-bold text-slate-800 mb-6">昨日までの鑑定を、静かに超えていく。</h2>
+            <h2 class="text-3xl font-bold text-slate-800 mb-6">すべての動画が見放題になるプラン</h2>
             <p class="text-slate-600 text-lg mb-12 max-w-2xl mx-auto">
-                本シリーズを含むすべての知恵が、あなたの日常の一部になります。<br>
-                まずは初月、その圧倒的な深みと手応えを実感してください。
+                本シリーズ「身体と福祉の知識」は、<strong>占い実践カレッジ</strong>のサブスクリプションにご登録いただくことで全編ご視聴いただけます。<br>
+                もちろん、その他の実践的な鑑定技術の動画講座もすべて見放題となります。始めやすいプランをご用意しました。
             </p>
 
             <div class="bg-white rounded-3xl shadow-xl border-2 border-teal-500 overflow-hidden mb-12 transform hover:-translate-y-1 transition-transform">
-                <div class="bg-teal-500 text-white py-4 font-bold tracking-widest uppercase text-sm">月額プラン料金</div>
+                <div class="bg-teal-500 text-white py-4 font-bold tracking-widest uppercase text-sm">
+                    月額プラン料金
+                </div>
                 <div class="p-8 md:p-12">
                     <div class="mb-8 border-b border-slate-100 pb-8">
                         <span class="text-teal-600 font-bold text-xl mb-2 block">初月お試し</span>
@@ -338,7 +406,9 @@
                             <span class="text-5xl font-extrabold text-slate-900">980</span>
                             <span class="text-slate-500 font-medium">円(税込)</span>
                         </div>
+                        <p class="text-slate-600 mt-4 text-sm">まずは1ヶ月、動画の内容やご自身の鑑定への活かしやすさを実感してください。</p>
                     </div>
+                    
                     <div>
                         <span class="text-slate-600 font-bold mb-2 block">2ヶ月目以降</span>
                         <div class="flex items-baseline justify-center gap-1">
@@ -351,29 +421,36 @@
             </div>
 
             <div class="space-y-8">
-                <h3 class="text-2xl md:text-3xl font-bold text-slate-900">あなたの言葉が、もっと確かな救いになる。</h3>
+                <h3 class="text-2xl md:text-3xl font-bold text-slate-900">
+                    あなたの言葉が、もっと確かな救いになる。
+                </h3>
+                <p class="text-slate-600">
+                    占い実践カレッジで鑑定士としての器を広げ、相談者様の人生をより豊かに照らす「新しい教養」を、今すぐ始めましょう。
+                </p>
+                
                 <div class="flex flex-col items-center">
-                    <a href="https://mosh.jp/services/ce35356dd5c24df0afa8e54c11f2269e?openExternalBrowser=1" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#06C755] hover:bg-[#05b34c] text-white px-10 py-5 rounded-full font-bold text-xl transition-all shadow-lg shadow-green-500/30 hover:shadow-green-500/50 hover:-translate-y-1">
+                    <a href="https://mosh.jp/services/ce35356dd5c24df0afa8e54c11f2269e?openExternalBrowser=1" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#06C755] hover:bg-[#05b34c] text-white px-10 py-5 rounded-full font-bold text-xl transition-all shadow-lg shadow-green-500/30 hover:shadow-green-500/50 hover:-translate-y-1 animate-bounce">
                         <i data-lucide="play-circle" class="w-6 h-6"></i>
                         サブスクに登録して今すぐ視聴する
                     </a>
-                    <p class="text-sm text-slate-500 mt-4 font-medium">※お申し込みはMOSHの安全な決済ページにて行われます。</p>
+                    <p class="text-sm text-slate-500 mt-4 font-medium">※お申し込みはMOSHの会員登録が必要です。</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="bg-slate-900 text-slate-400 py-12 px-6 text-center text-sm border-t border-slate-800">
         <div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
             <p>&copy; <script>document.write(new Date().getFullYear())</script> 占い実践カレッジ</p>
             <div class="flex gap-4">
-                <a href="#" class="hover:text-white transition-colors">特定商取引法に基づく表記</a>
-                <a href="#" class="hover:text-white transition-colors">プライバシーポリシー</a>
-                <a href="#" class="hover:text-white transition-colors">利用規約</a>
+                <a href="https://ishikawaseiryu.website/%e7%89%b9%e5%ae%9a%e5%95%86%e5%8f%96%e5%bc%95%e6%b3%95%e3%81%ab%e5%9f%ba%e3%81%a5%e3%81%8f%e8%a1%a8%e8%a8%98/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">特定商取引法に基づく表記</a>
+                <a href="https://ishikawaseiryu.website/privacy-policy/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">プライバシーポリシー</a>
             </div>
         </div>
     </footer>
 
+    <!-- Initialize Lucide Icons -->
     <script>
         lucide.createIcons();
     </script>
